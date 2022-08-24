@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.principal{
+	width: 800px;
+	height: 600px;
+	background-image: url(gameboy.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+canvas{
+	background-color: rgb(149, 169, 144);
+	;
+	position: absolute;
+	top: 192px;
+	left: 234px;
+	border-radius: 7px;
+}
+
+.start{
+	width: 25px;
+	height: 25px;
+	background-color:red;
+	position: absolute;
+	top: 376px;
+	left: 162px;
+	border-radius: 50%;
+}
